@@ -15,15 +15,27 @@ body{
 
 }
 
+h1{
+    font-weight: bolder;
+    font-size: 3rem;
+    color: #fff;
+    width: 300px;
+}
+
 h2{
     color: #fff;
 }
 
+.row-title h2{
+    font-size: 2.4rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
 
 /* HEADER */
 
 #header{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
  
 }
@@ -34,7 +46,7 @@ h2{
 }
 
 #nav-name{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 30%;
     margin-left: 10%;
     font-weight: bold;
@@ -42,7 +54,7 @@ h2{
 /* SECTION-MAIN */
 
 #section-main{
-    border: 4px solid rgb(235, 229, 229);
+    /* border: 4px solid rgb(235, 229, 229); */
     width: 100%;
     display: flex;
     align-items: center;
@@ -69,13 +81,10 @@ h2{
     /* border-style: inset; */
     /* border-style:groove; */
 
-
-
 }
 
 .nav-link:hover{
     /* background-color: rgb(51, 49, 49); */
-    box-shadow: 10px 5px 20px 4px rgb(46, 46, 46);
     transition: 2s;
     font-weight: bolder;
     
@@ -94,6 +103,7 @@ h2{
 #section-home h1{
     font-weight: bolder;
     font-size: 3rem;
+    margin: 0px;
 }
 
 #section-home h2{
@@ -132,9 +142,6 @@ h2{
 } 
 
 
-
-
-
 /* SECTION-SOBRE */
 #section-sobre{
     /* border: 4px solid rgb(235, 229, 229); */
@@ -145,88 +152,100 @@ h2{
 }
 
 .container-sobre{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
 }
 
 .box-sobre{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 80%;
     background-color: rgba(0, 0, 0, 0.877);
+    border-radius: 10px;
+
 }
 
+
 .box-skills{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 80%;
     background-color: rgba(0, 0, 0, 0.877);
 
 }
 
 .box-sobre .col-md-6{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin-left: 0;
     height: 90%;
     width: 100%;
+    
 }
 
+#row-sobre{
+    border: 2px solid #000 !important;
+
+}
 
 .box-sobre .row-title{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     padding: 10px;
 }
 
 .box-sobre .col-auto{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-left: 0;
     width: 30%;
 }
 
 
 .box-sobre .img-sobre{
+    /* border: 2px solid red; */
     width: 100%;
     height: 100%;
 }
 
 .box-sobre .img-icon{
-    border: 2px solid rgb(102, 255, 0);
+    /* border: 2px solid rgb(102, 255, 0); */
     width: 25px;
     height: 25px;
 
 }
 
 #box-descricao{
-    border: 2px solid rgb(21, 255, 0);
+    /* border: 2px solid rgb(21, 255, 0); */
     display: block;
     margin: 0;
 }
  
-.box-skills{
-    border: 2px solid red;
-
+.box-skills .box-list{
+    border-bottom: 2px dotted #fff;
+    padding-bottom: 10px;
 }
+
+.box-skills h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-bottom: 1px solid #2fb3ff;
+    border-width: 5px;
+    width: 60px;
+    margin: 0px;
+ }
+
 #box-descricao .row{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
      display: flex;
      width: 100%;
      /* height: auto; */
 }
 
 #box-descricao .box-list{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin-top: 30px;    
 }
 
-#box-skills .box-list{
-    border: 2px solid blue;
-    margin-top: 10px;    
-}
 
-#box-descricao .col-md .label{
-    border: 2px solid blue;
-    margin-top: 10px;    
-}
+
 #box-descricao .col-md{
-    border: 2px solid rgb(0, 255, 0);
+    /* border: 2px solid rgb(0, 255, 0); */
     
     display: inline-block;
     padding-left: 7px;
@@ -246,7 +265,8 @@ h2{
 
 /* SECTION-RESUME */
 #container-resume{
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    background-color: rgba(0, 0, 0, 0.877);
     width: 80%;
 }
 
@@ -255,12 +275,13 @@ h2{
     font-weight: bold;
 }
 #container-resume h4{
-    border-left: 10px solid #11daff;
+    border-left: 10px solid #2fb3ff;
     font-size: 1rem;
     font-weight: 900;
     color: #11daff;
     border-radius: 100px;
     padding-left: 10px;
+    text-transform: uppercase;
 }
 
 #container-resume h5{
@@ -282,17 +303,22 @@ h2{
 }
 
 #box-resume .row-title{
-    border: 2px solid blue  ;
+    /* border: 2px solid blue  ; */
+    padding: 10px;
+    text-transform: uppercase;
+
 }
 
 #box-resume .row-resume{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     display: flex;
+    padding: 10px;
+
 }
 
 #box-resume .col-md-6{
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
     width: 50%;
 }
 
