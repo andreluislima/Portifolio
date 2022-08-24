@@ -404,3 +404,65 @@ h2{
     width: 100%;
     
 }
+
+/* REVISÃO IMPORTANTE - CONSIDERAR PARA CORREÇÃO NAS OUTRAS PAGINAS */
+/* SECTION-WORKS*/
+#section-works{
+    border: 4px solid rgb(235, 229, 229);
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#section-works .container{
+    border: 2px solid red;
+    background-color: rgba(0, 0, 0, 0.877);
+    /* height: 80vh; */
+    width: 100%;
+    display: flex;
+    }
+
+#section-works .box-works{
+    border: 2px solid blue;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.877);
+    border-radius: 10px;
+    display: flex;
+}
+
+.box-works .row-title h2{
+    font-size: 1.6rem;
+    padding: 10px;
+}
+
+.box-works .col-md-6{
+    border: 4px solid red;
+    margin-left: 0;
+    width: 70%;
+    position: relative;
+
+}
+
+.box-works .col-md-3{
+    border: 2px solid #fff;
+    margin-left: 0;
+    width: 30%;
+    margin-left: 1%;
+    position: relative;
+}
+
+#carouselExampleIndicators{
+    border: 4px solid greenyellow;
+    width: 100%;
+    position: relative;
+}
+.carousel-inner{
+    border: 4px solid red;
+    position: relative;
+
+}
+
+.carousel-item{
+    border: 4px solid #fff;
+    position: relative;
+}
