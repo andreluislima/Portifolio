@@ -143,6 +143,23 @@ h2{
 } 
 
 
+
+#section-home .bi{
+    color: #fff;
+    border: 2px dotted #c2bdbd91;
+    padding: 3px;
+    height: 35px;
+    width: 35px;
+    border-radius: 28px;
+}
+
+#section-home .bi:hover{
+    transition: 1s; 
+    border: 2px dotted #fff;   
+    color: #2fb3ff;
+}
+
+
 /* SECTION-SOBRE */
 #section-sobre{
     /* border: 4px solid rgb(235, 229, 229); */
@@ -350,6 +367,7 @@ h2{
     width: 90%;
     background-color: rgba(0, 0, 0, 0.877);
     border-radius: 10px;
+    
 }
 
 .box-portifolio .row-title{
@@ -360,6 +378,8 @@ h2{
 .box-portifolio .card{
     /* border: 2px solid red; */
     background-color: #8b8b8b91;
+    box-shadow: -2px 2px 14px 2px #f0ededc9 !important;
+
 }
 
 .box-portifolio .btn{
@@ -374,16 +394,18 @@ h2{
     color: #fff;
 }
 
+
 #box-img{
     border-bottom: 4px groove #f0ededc9;
     width: 100%;
-    height: 224px;
+    height: 200px;
 
 }
 
 .img-portifolio{
     width: 100%;
-    height: 100%;
+    height: 80%;
+    margin-top: 30px;
 }
 
 /* SECTION-CONTATOS*/
@@ -455,20 +477,38 @@ form textarea{
 
 .box-contatos .card{
     /* border: 2px solid red; */
-    width: 390px;
+    width: 46%;
+    position: relative;
 }
 
 .box-contatos .col-md-4{
     display: flex;
     align-items: center;
+    width: 100px;
 }
 
-
-.box-contatos .card-body{
+.box-contatos .col-md-8{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 1px solid #f0ededc9;
+    border: 3px solid #f0ededc9;
     background-color: #8b8b8b91;
+    width: 74%;
+    height: 100px;
+    margin-left: -10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    font-size: .95rem;
+    font-weight: bolder;
 }
+
+
+
+.box-contatos .card{
+    /* border: 2px solid red; */
+    margin-left: 4px;
+}
+
 
 .card-body .card-text{
     color: #fff;
@@ -483,16 +523,17 @@ form textarea{
 }
 
 /* REVISÃO IMPORTANTE - CONSIDERAR PARA CORREÇÃO NAS OUTRAS PAGINAS */
+
 /* SECTION-WORKS*/
 #section-works{
-    border: 4px solid rgb(235, 229, 229);
+    /* border: 4px solid rgb(235, 229, 229); */
     width: 100%;
     display: flex;
     align-items: center;
 }
 
 #section-works .container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: rgba(0, 0, 0, 0.877);
     /* height: 80vh; */
     width: 100%;
@@ -500,8 +541,8 @@ form textarea{
     }
 
 #section-works .box-works{
-    border: 2px solid blue;
-    width: 90%;
+    /* border: 10px solid blue; */
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.877);
     border-radius: 10px;
     display: flex;
@@ -513,7 +554,7 @@ form textarea{
 }
 
 .box-works .col-md-6{
-    border: 4px solid red;
+    /* border: 4px solid red; */
     margin-left: 0;
     width: 100%;
     position: relative;
@@ -521,38 +562,72 @@ form textarea{
 }
 
 .box-works .col-md-3{
-    border: 2px solid #fff;
+    border-left: 6px dashed #8b8b8b91;
     margin-left: 0;
-    width: 27%;
-    height: 50%;
-    margin-left: 73%;
+    width: 30%;
+    height: 100%;
+    margin-left: 71%;
     position: relative;
-    margin-top: -40%;
+    margin-top: -500px;
     display: flex;
+    align-items: center;
     padding: 20px;
+    background-color:#000;
 }
 
+.col-md-3 .box-text{
+    /* border: 4px solid rgb(235, 229, 229); */
+    margin-left: 0px;
+}
+
+.box-works h3{
+    font-size: 1.2rem;
+    color: #2fb3ff;
+    font-weight: 800;
+}
+
+.box-works h5{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: bolder;
+    display: inline-flex;
+    margin-right: 8px;
+}
+
+.box-works a{
+    font-size: .9rem;
+    color: #fff;
+    text-decoration:none;
+    border-bottom:1px dotted #2fb3ff;
+}
+
+.box-works a:hover{
+    font-size: .9rem;
+    color: #2fb3ff;
+}
+
+
 #carouselExampleIndicators{
-    border: 4px solid greenyellow;
+    /* border: 4px solid greenyellow; */
     width: 100%;
     position: relative;
 }
 .carousel-inner{
-    border: 4px solid red;
+    /* border: 4px solid red; */
     position: relative;
-
 }
 
 .carousel-item{
-    border: 4px solid #fff;
+    /* border: 4px solid #fff; */
     position: relative;
-    padding: 10px;
+    padding: 5px;
     height: 550px;
 }
 
 iframe{
     width: 75%;
     height: 500px;
+    margin-left: -2%;
  }
  
 /* ::-webkit-scrollbar{
