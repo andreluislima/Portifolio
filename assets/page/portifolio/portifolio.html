@@ -17,6 +17,30 @@
 <body class="bg-dark">
 
   <header id="header">
+    <div class="menu-section">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" id="menu-toggle" viewBox="0 0 16 16" onclick="exibirMenus()">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+      </svg>
+
+    <ul id="menu-list">
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="../../../index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="../sobre/sobre.html">Sobre</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="../resume/resume.html">Resume</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="../portifolio/portifolio.html">Portifolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="../contatos/contatos.html">Contatos</a>
+      </li>
+    </ul>
+  </div>
+
     <div class="container">
       <nav class="navbar navbar-expand-md navbar-dark">
         <nav id="nav-name" class="navbar navbar-expand-md navbar-dark">
@@ -34,7 +58,7 @@
           </div>
         </nav>
 
-        <div class="container-fluid" id="">
+        <div class="container-fluid" id="menu-list">
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
 
@@ -73,7 +97,7 @@
           <div class="album py-5">
             <div class="container">
         
-              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="row row-cols-1 row-cols-sm-2">
 
                 <div class="col">
                   <div class="card shadow-sm">
