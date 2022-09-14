@@ -9,9 +9,11 @@ const menu = document.getElementById("menu-list")
 const btnToggle = document.getElementById("menu-toggle")
 const pagina = document.getElementById("section-sobre")
 
-function exibirMenu(){
+// HOME
+function exibirMenuHome(){
     btnToggle.style.display = 'none'
     menu.style.display = 'block'
+
 }
 
 function exibirMenus(){
