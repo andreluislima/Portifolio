@@ -17,19 +17,45 @@
 <body class="bg-dark">
 
   <header id="header">
+    <div class="menu-section">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" id="menu-toggle-contatos"
+        viewBox="0 0 16 16" onclick="exibirMenus()">
+        <path fill-rule="evenodd"
+          d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+      </svg>
+
+      <ul id="menu-list">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="../../../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="../sobre/sobre.html">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="../resume/resume.html">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../portifolio/portifolio.html">Portifolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="../contatos/contatos.html">Contatos</a>
+        </li>
+      </ul>
+    </div>
+
     <div class="container">
       <nav class="navbar navbar-expand-md navbar-dark">
         <nav id="nav-name" class="navbar navbar-expand-md navbar-dark">
           <div class="container-fluid" id="">
             <div class="collapse navbar-collapse" id="navbarCollapse">
               <ul class="navbar-nav me-auto mb-2 mb-md-0">
-  
+
                 <li class="nav-item">
                   <a class="nav-link" aria-current="page" href="../../../index.html">
                     <h1>André Lima</h1>
                   </a>
                 </li>
-  
+
             </div>
           </div>
         </nav>
@@ -69,71 +95,63 @@
           <h2>Contatos</h2>
         </div>
 
-        <div class="col-md-6" style="display: flex;">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="../../img/icons/icons8-whatsapp-48.png" class="img-fluid rounded-start" alt="...">
-              </div>
-
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Telefone</h5>
-                  <p class="card-text">21 - 98879-8592</p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="../../img/icons/icons8-mail-graph-48.png" class="img-fluid rounded-start" alt="...">
-              </div>
-
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">E-mail</h5>
-                  <p class="card-text">a.andreluislima@gmail.com</p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6">
+        <div id="row-contato" class="row">
           
-          <form class="row g-3">
-            
-            <div class="row">
-              <div class="col">
-                <input type="text" class="form-control input-text" placeholder="Nome">
+          <div class="col-md-6">
+            <div class="card">
+              <img src="../../img/icons/icons8-whatsapp-48.png" id="cards-img" alt="...">
+              <div id="card-body" class="card-body">
+                <span class="span">Tel:</span><p class="card-text">(21) 9889 8592</p>
               </div>
-
-              <div class="col">
-                <input type="text" class="form-control input-text" placeholder="Assunto">
-              </div>
-            </div>      
-
-            <div class="row">
-              <div class="mb-3">
-                <input type="email" class="form-control input-text" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
-              </div>
-
-              <div class="mb-3">
-                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Mensagem" rows="3"></textarea>
-             </div>
             </div>
-
-            <input class="btn btn-primary" type="submit" value="Enviar">
-          </form>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <img src="../../img/icons/icons8-mail-graph-48.png" id="cards-img" alt="...">
+              <div id="card-body" class="card-body">
+                <span class="span">Email:</span><p class="card-text"> andrelimag89@gmail.com</p>
+              </div>
+            </div>
+          </div>
 
         </div>
 
+
+        <!-- FORM -->
+        <div class="row row-cols-1 row-cols-sm-2">
+          <div class="col-md-6">
+
+            <form id="form" class="row g-3">
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control input-text" placeholder="Nome">
+                </div>
+
+                <div class="col">
+                  <input type="text" class="form-control input-text" placeholder="Assunto">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="mb-3">
+                  <input type="email" class="form-control input-text" id="exampleFormControlInput1"
+                    placeholder="nome@exemplo.com">
+                </div>
+
+                <div class="mb-3">
+                  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Mensagem"
+                    rows="3"></textarea>
+                </div>
+              </div>
+
+              <input class="btn btn-primary" type="submit" value="Enviar">
+            </form>
+
+          </div>
+
+        </div>
       </div>
-      
+
     </div>
   </section>
 
