@@ -704,7 +704,8 @@ iframe{
 }
 
 @media (max-width:375px){
-    /* HOME */
+    /* GLOBALS  */
+
     #h1{
         font-size: 2rem;
         font-weight: bolder;
@@ -739,13 +740,9 @@ iframe{
 
     .menu-section{
         display: block;
+        
     }
-
-    #box-title{
-        /* border: 2px solid red !important; */
-        /* margin-left: 1% !important; */
-    }
-
+    
     #menu-toggle{
         display: block;
         /* border: 2px solid #000; */
@@ -764,9 +761,10 @@ iframe{
         display: none;
         /* border: 2px solid red; */
         padding-left: 0px;
-        
+        margin-left: 2%;
 
     }
+
 
     .menu-section .nav-item{
         display: block;
@@ -788,22 +786,19 @@ iframe{
 
     }
 
+    .nav-link.active{
+        background-color: #2fb3ff;
+        padding-top: 4%;
+    }
+
     .menu-section li:hover{
         background-color: #2fb3ff;
         transition: 1.5s;
     }
 
 
-    /* SOBRE */
-    .bg-dark{
-        /* border: 2px solid red; */
-        height: 500vh;
-        width: 200vw;
-    }
 
-    .menu-section{
-        display: block;
-    }
+    /* SOBRE */
 
     #menu-toggle-sobre{
         display: block;
@@ -814,54 +809,14 @@ iframe{
         margin-top: -3%;
     }
 
-    #menu-list{
-        width: 45%;
-        text-align: center;
-        font-size: 1.3rem;
-        display: none;
-        /* border: 2px solid red; */
-        padding-left: 0px;
-        margin-left: 2%;
-
-    }
-
-    .menu-section .nav-item{
-        display: block;
-    }
-
-    .menu-section ul{
-        /* border: 2px solid red; */
-        position: relative;
-        margin-top: 1% !important;
-
-    }
-    .menu-section li{
-        border-bottom: 2px solid #8b8b8b91;
-        list-style: none;
-        padding: 4px;
-        font-weight: bold;
-        padding-top: 10%;
-
-    }
-
-
-    .nav-link.active{
-        background-color: #2fb3ff;
-        padding-top: 4%;
-    }
-
-
-    .menu-section li:hover{
-        background-color: #2fb3ff;
-        transition: 1.5s;
-    }
-
 
     .box-sobre{
         border: 2px solid rgba(255, 255, 255, 0.479);
         margin-left: 2%;
         width: 47%;
     }
+
+    /* DESCRIÇÃO */
 
     #box-descricao #h3{
         /* border: 2px solid red; */
@@ -888,16 +843,6 @@ iframe{
     }
 
     /* RESUME */
-    .bg-dark{
-        /* border: 2px solid red; */
-        height: 500vh;
-        width: 200vw;
-    }
-
-    .menu-section{
-        display: block;
-    }
-
 
     #menu-toggle-resume{
         display: block;
@@ -908,50 +853,7 @@ iframe{
         margin-top: -3%;
     }
 
-    #menu-list{
-        width: 45%;
-        text-align: center;
-        font-size: 1.3rem;
-        display: none;
-        /* border: 2px solid red; */
-        padding-left: 0px;
-        margin-left: 2%;
-
-    }
-
-    .menu-section .nav-item{
-        display: block;
-    }
-
-    .menu-section ul{
-        /* border: 2px solid red; */
-        position: relative;
-        margin-top: 1% !important;
-
-    }
-    .menu-section li{
-        border-bottom: 2px solid #8b8b8b91;
-        list-style: none;
-        padding: 4px;
-        font-weight: bold;
-        padding-top: 10%;
-
-    }
-
-
-    .nav-link.active{
-        background-color: #2fb3ff;
-        padding-top: 4%;
-    }
-
-
-    .menu-section li:hover{
-        background-color: #2fb3ff;
-        transition: 1.5s;
-    }
-
-
-
+       
     #box-resume{
         margin-left: -10%;
         width: 60%;
@@ -975,10 +877,6 @@ iframe{
 
     }
 
-    /* #container-resume h3{
-        font-size: 1.5rem;
-        font-weight: bold;
-    } */
 
     #container-resume h4{
         border-left: 0px;
@@ -1000,4 +898,51 @@ iframe{
         width: 100%;
         margin-left: -9%;
     }
+
+
+    /* PORTIFOLIO */
+
+    #menu-toggle-portifolio{
+        display: block;
+        border: 2px solid #000;
+        width: 60px;
+        height: 60px;
+        margin-left: 2%;
+        margin-top: -3%;
+    }
+
+    #section-portifolio{
+        /* border: 2px solid blue; */
+        width: 60%;
+        margin-left: -2%;
+
+    }
+
+
+    .box-portifolio{
+        margin-left: -2%;
+        /* border: 2px solid red; */
+        width: 10%;
+    }
+
+    
+    .box-portifolio .row{
+        /* width: 50%; */
+        display: block;
+        /* border: 2px solid rgba(255, 255, 255, 0.479); */
+        border-radius: 15px;
+        margin-top: -30%;
+    }
+
+    .box-portifolio .col{
+        border: 2px solid rgba(255, 255, 255, 0.479);
+        border-radius: 15px;
+        width: 100%;
+        font-size: 2.8rem;
+        margin-left: -1%;
+        margin-top: 20%;
+
+    }
+
+    
 }
