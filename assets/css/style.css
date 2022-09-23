@@ -1034,7 +1034,7 @@ iframe{
         /* border: 2px solid red; */
         width: 100% !important;
         display: block;
-        height: 70vh;
+        /* height: 70vh; */
 
     }
 
@@ -1112,10 +1112,10 @@ iframe{
 
 }
 
-/* TABLET */
+/* 376  - 768 */
 
 
-@media (min-width:376px )and (max-width: 768px){
+@media (min-width:376px )and (max-width: 767px){
       /* GLOBALS  */
 
     html{
@@ -1143,8 +1143,7 @@ iframe{
     }
 
     #h2{
-        border: 2px solid red !important;
-
+        /* border: 2px solid red !important; */
         font-size: 2rem;
         margin-top: 10px;
     }
@@ -1219,6 +1218,10 @@ iframe{
 
     /* SOBRE */
 
+    h1{
+        display: none;
+    }
+
     #menu-toggle-sobre{
         display: block;
         border: 2px solid #000;
@@ -1236,7 +1239,7 @@ iframe{
     }
 
     .box-sobre #p{
-        border: 2px solid red;
+        /* border: 2px solid red; */
         margin-top: 2%;
 
     }
@@ -1304,12 +1307,13 @@ iframe{
 
 
     #container-resume h4{
+        /* border: 2px solid red; */
         border-left: 0px;
         font-size: 1rem;
         font-weight: bolder;
         text-align: left;
         /* border-radius: 100px; */
-        margin-left: -15%;
+        margin-left: -9%;
 
     }
     #container-resume h5{
@@ -1388,11 +1392,13 @@ iframe{
 
     .box-contatos{
         width: 85% !important;
+        /* height: 90vh; */
         display: block;
         border: 2px solid rgba(255, 255, 255, 0.479);
         border-radius: 15px;
         margin-left: -15%;
- 
+        /* border: 2px solid blue; */
+
     }
 
     #row-contato{
@@ -1400,7 +1406,7 @@ iframe{
         /* border: 2px solid red; */
         width: 100% !important;
         display: block;
-        height: 70vh;
+        /* height: 70vh; */
 
     }
 
@@ -1442,14 +1448,14 @@ iframe{
     #p1{
         color: #fff !important;
         margin-top: -6%;
-        margin-left: 15%;
+        margin-left: 20%;
     }
 
     
     #p{
         color: #fff !important;
         margin-top: -6%;
-        margin-left: 5%;
+        margin-left: 10%;
     }
 
     .card{
@@ -1474,5 +1480,252 @@ iframe{
         
     #form{
         display: none;
+    }
+}
+
+
+@media (min-width:768px )and (max-width: 1024px){
+    
+    /* SOBRE */
+    h1{
+    /* border: 2px solid red; */
+    margin-left: -15%;
+ 
+    }
+
+      .box-sobre{
+        width: 90%;
+        /* border: 2px solid red; */
+
+    }
+
+    .box-sobre #p{
+        /* border: 2px solid red; */
+        margin-top: 2%;
+
+    }
+
+    .box-skills{
+        width: 90%;
+        /* border: 2px solid red; */
+
+    }
+
+
+    /* RESUME */
+
+    #box-resume{
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+
+    #box-resume .row-resume{
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+
+    #container-resume{
+        width: 90%;
+        /* border: 2px solid blue; */
+        /* margin-left: -9%; */
+    } 
+        
+
+    #container-resume h4{
+        /* border: 2px solid red; */
+        border-left: 0px;
+        font-size: 1rem;
+        font-weight: bolder;
+        text-align: left;
+        border-radius: 100px;
+        margin-left: -9%;
+
+    }
+
+    #container-resume h5{
+        font-size: 1.3rem;
+        /* border: 2px solid greenyellow; */
+        width: 47%;
+        margin-left: -7%;
+    } 
+    
+    #container-resume p{
+        width: 90%;
+        /* border: 2px solid blue; */
+        margin-left: -8%;
+    } 
+
+    /* PORTIFOLIO */
+
+    #section-portifolio{
+        /* border: 2px solid blue; */
+        width: 100%;
+
+    }
+
+    .box-portifolio{
+        /* margin-left: -2%; */
+        /* border: 2px solid red; */
+        width: 100% !important;
+    }
+
+    
+    .box-portifolio .row{
+        width: 100%;
+        /* height: 40vh; */
+        display: flex;
+        align-items: center;
+        /* border: 2px solid rgba(255, 255, 255, 0.479); */
+        border-radius: 15px;
+        margin-top: -5%;
+        padding: 15px;
+    }
+
+    .box-portifolio .col{
+        /* border: 2px solid red; */
+
+        /* border: 2px solid rgba(255, 255, 255, 0.479); */
+        border-radius: 15px;
+        width: 48%;
+        font-size: 2.8rem;
+        margin: 0;
+        margin-left: 2%;
+        /* margin-top: 10%; */
+     }
+
+     /* CONTATOS */
+
+    #section-contatos{
+        /* border: 2px solid blue; */
+        width: 100%;
+        /* margin-left: 2%; */
+        padding: 0;
+        display: flex;
+
+    }
+
+    .box-contatos{
+        width: 110% !important;
+        /* border: 2px solid rgba(255, 255, 255, 0.479); */
+        border-radius: 15px;
+        /* margin-left: -5%; */
+        /* border: 2px solid blue; */
+
+    }
+
+    #row-contato{
+        margin-left: -2%;
+        /* border: 2px solid red; */
+        width: 100% !important;
+        display: flex;
+        /* height: 70vh; */
+
+    }
+
+    .box-contatos .col-md-6{
+        /* border: 2px solid blue; */
+        width: 48% !important;
+        margin-left: 0;
+        /* height: 60vh; */
+        width: 100%;
+        padding: 2px;
+        margin-top: 5%;
+         
+    }
+
+    #col-form{
+        /* border: 2px solid blue; */
+        width: 100% !important;
+        margin-left: -1.5%;
+        padding-left: 3%;
+        padding-bottom: 5%;
+    }
+    .card{
+        border: 2px solid #40C057;
+        /* border-bottom: 2px dotted #8b8b8b91; */
+        background-color: #000;
+        width: 90% !important;
+        height: 100%;
+        display: block;
+        text-align: center;
+        justify-content: center;
+        flex-direction: row;
+        padding-bottom: 4%;
+
+    }
+    
+    #card-body{
+        /* border: 1px solid red; */
+        display: flex;
+        width: 90%;
+        height: 50%;
+        /* color: red; */
+        margin-top: 4%;
+        margin-left: 9%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.05rem;
+        font-weight: bold;
+        position: relative;
+        display: flex !important;
+        align-items: center !important;
+        justify-content:right !important ;
+
+        padding-left: 0px;
+
+    }
+   
+    #span{
+        display: none;
+    }
+
+    #p1{
+        color: #fff !important;
+        margin-top: -6%;
+        margin-left: 20%;
+    }
+
+    
+    #p{
+        color: #fff !important;
+        margin-top: -6%;
+        margin-left: 10%;
+    }
+
+    .card{
+        border-bottom: 2px dotted #8b8b8b91;
+        background-color: #000;
+        width: 100% !important;
+        height: 100%;
+        display: block;
+        text-align: center;
+        justify-content: center;
+        flex-direction: row;
+
+    }
+    
+    #cards-img{
+        border: 2px dashed #000;
+        width: 50px;
+        height: 50px !important;
+        margin-top: 8%;
+    }
+    
+        
+}
+
+@media(width: 768px){
+    
+    #p1{
+        color: #fff !important;
+        margin-top: -6%;
+        margin-left: 10%;
+    }
+
+    
+    #p{
+        /* border: 2px solid red; */
+        color: #fff !important;
+        /* margin-top: -6%; */
+        /* margin-left: -17% !important; */
     }
 }

@@ -16,25 +16,65 @@ function exibirMenuHome(){
 
 }
 
-function exibirMenus(){
+// function exibirMenus(){
 
-    let home;
-    let sobre;
-    let resume;
-    let portifolio;
-    let contatos;
+//     // let home;
+//     let sobre;
+//     let resume;
+//     let portifolio;
+//     let contatos;
 
+//     menu.style.display = 'block'
+
+//     sobre = document.getElementById("section-sobre")
+//     sobre.style.display = 'none';
+
+//     resume = document.getElementById("section-resume")
+//     resume.style.display = 'none';
+
+//     portifolio = document.getElementById("section-portifolio")
+//     portifolio.style.display = 'none';
+
+//     contatos = document.getElementById("section-contatos")
+//     contatos.style.display = 'none';
+
+// }
+
+function hideSobre(){
     menu.style.display = 'block'
 
+    let sobre;
+
     sobre = document.getElementById("section-sobre")
-    sobre.style.display = 'none'
+    sobre.style.display = 'none';
+
+}
+
+
+function hideResume(){
+    menu.style.display = 'block'
+
+    let resume;
 
     resume = document.getElementById("section-resume")
-    resume.style.display = 'none'
+    resume.style.display = 'none';
+
+}
+function hidePortifolio(){
+    menu.style.display = 'block'
+
+    let portifolio;
 
     portifolio = document.getElementById("section-portifolio")
-    portifolio.style.display = 'none'
+    portifolio.style.display = 'none';
+
+}
+function hideContatos(){
+    menu.style.display = 'block'
+
+    let contatos;
 
     contatos = document.getElementById("section-contatos")
-    contatos.style.display = 'none'
+    contatos.style.display = 'none';
 }
+
