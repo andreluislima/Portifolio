@@ -763,6 +763,20 @@ iframe{
     display: none;
 }
 
+@media(min-width: 375px) {
+   
+    html{
+        background-color: #000;
+    }
+
+    #body{
+        /* border: 21px solid red; */
+        background-color: #000;
+        /* padding-top: 20%; */
+    }
+
+}
+
 @media (max-width:375px){
     /* GLOBALS  */
 
@@ -889,6 +903,7 @@ iframe{
         /* border: 2px solid red; */
         width: 95%;
         margin-left: 0px;
+        margin-top: 2%;
         text-align:left;
         font-weight: 600;
     }
@@ -1493,9 +1508,9 @@ iframe{
  
     }
 
-      .box-sobre{
-        width: 90%;
-        /* border: 2px solid red; */
+    .box-sobre{
+    width: 90%;
+    /* border: 2px solid red; */
 
     }
 
@@ -1727,5 +1742,77 @@ iframe{
         color: #fff !important;
         /* margin-top: -6%; */
         /* margin-left: -17% !important; */
+    }
+}
+
+
+@media(min-width:1024px){
+    .card{
+        border: 2px solid #40C057;
+        /* border-bottom: 2px dotted #8b8b8b91; */
+        background-color: #000;
+        width: 90% !important;
+        height: 100%;
+        text-align: center;
+        justify-content: center;
+        flex-direction: row;
+        padding-bottom: 4%;
+
+    }
+    
+    #card-body{
+        /* border: 1px solid red; */
+        display: flex;
+        width: 90%;
+        height: 50%;
+        /* color: red; */
+        /* margin-top: 1%; */
+        margin-left: 9%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.05rem;
+        font-weight: bold;
+        position: relative;
+        display: flex !important;
+        align-items: center !important;
+        justify-content:right !important ;
+
+        padding-left: 0px;
+
+    }
+   
+    #span{
+        display: none;
+    }
+
+    #p1{
+        color: #fff !important;
+        margin-top: -6%;
+        margin-left: 20%;
+    }
+
+    
+    #p{
+        color: #fff !important;
+        margin-top: -6%;
+        margin-left: 12%;
+    }
+
+    .card{
+        border-bottom: 2px dotted #8b8b8b91;
+        background-color: #000;
+        width: 100% !important;
+        height: 100%;
+        display: block;
+        text-align: center;
+        justify-content: center;
+        flex-direction: row;
+
+    }
+    
+    #cards-img{
+        border: 2px dashed #000;
+        width: 50px;
+        height: 50px !important;
+        margin-top: 8%;
     }
 }
