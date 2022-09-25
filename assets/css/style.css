@@ -774,7 +774,7 @@ iframe{
     display: none;
 }
 
-@media(min-width: 375px) {
+@media(min-width: 300px) {
    
     html{
         background-color: #000;
