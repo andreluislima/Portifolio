@@ -847,7 +847,7 @@ iframe{
         width: 60px;
         height: 60px;
         margin-top: 3% !important;
-        margin-left: -1% !important;
+        margin-left: 1% !important;
         /* border: 2px solid red !important; */
 
     }
@@ -956,13 +956,13 @@ iframe{
     #box-resume{
         margin-left: -10%;
         width: 60%;
-
     }
 
     #box-resume .row-resume{
         width: 100%;
         display: block;
         /* padding: 10px; */
+
     }
     
         
@@ -972,7 +972,7 @@ iframe{
         padding: 20px;
         width: 100%;
         font-size: 2.8rem;
-        /* margin-top: 4%; */
+        margin-top: 4%;
 
     }
 
@@ -1299,9 +1299,7 @@ iframe{
 
     }
 
- 
-
-    .menu-section{
+     .menu-section{
         display: block;
         
     }
@@ -1312,7 +1310,7 @@ iframe{
         width: 60px;
         height: 60px;
         margin-top: 3% !important;
-        margin-left: -1% !important;
+        margin-left: 1% !important;
         /* border: 2px solid red !important; */
 
     }
@@ -1430,7 +1428,6 @@ iframe{
     #box-resume{
         margin-left: -10%;
         width: 60%;
-
     }
 
     #box-resume .row-resume{
@@ -1446,7 +1443,7 @@ iframe{
         padding: 20px;
         width: 100%;
         font-size: 2.8rem;
-        /* margin-top: 4%; */
+        margin-top: 4%;
 
     }
 
