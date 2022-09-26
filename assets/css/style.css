@@ -558,7 +558,7 @@ h2{
     padding: 20px;
      
 }
-.box-contatos .span{
+.box-contatos #p1, #p{
     color: #fff;
 }
 /* FORM */
