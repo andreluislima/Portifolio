@@ -2110,6 +2110,7 @@ iframe{
 
     #body{
         border: 21px solid rgb(124, 122, 122);
+        height: 100vh;
 
     }
     .card{
@@ -2180,4 +2181,6 @@ iframe{
         height: 50px !important;
         margin-top: 8%;
     }
+
+   
 }

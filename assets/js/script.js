@@ -80,6 +80,7 @@ function hideContatos(){
 
 function enviar(){
     var nome = document.getElementById("nome")
+    
     if(nome.value != ""){
         alert("Obrigado Sr(a)" + nome.value + " " + "Sua mensagem foi encaminhada com sucesso!")
     }
