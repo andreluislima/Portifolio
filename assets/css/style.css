@@ -971,6 +971,7 @@ iframe{
         border-radius: 15px;
         padding: 20px;
         width: 100%;
+        height: 100vh;
         font-size: 2.8rem;
         margin-top: 4%;
 
@@ -1256,6 +1257,8 @@ iframe{
      }
      
 }
+
+/* RESPONSIVE */
 
 /* 376  - 768 */
 
@@ -2110,7 +2113,7 @@ iframe{
 
     #body{
         border: 21px solid rgb(124, 122, 122);
-        height: 100vh;
+        height: 100%;
 
     }
     .card{
