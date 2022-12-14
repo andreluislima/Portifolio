@@ -1,4 +1,9 @@
 @media(max-width: 998px){
+    #body{
+        border: 21px solid rgb(124, 122, 122);
+        height: 100%;
+
+    }
 
     #h1{
         display: block;
@@ -43,6 +48,12 @@
 
 
 @media (max-width: 768px){
+    #body{
+        border: 21px solid rgb(124, 122, 122);
+        height: 100%;
+
+    }
+
     .bg-dark{
         /* height: 100vh; */
         width: 100%;

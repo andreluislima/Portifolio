@@ -1756,7 +1756,11 @@ iframe{
 }
 
 @media (min-width:768px )and (max-width: 1024px){
-   
+    #body{
+        border: 21px solid rgb(124, 122, 122);
+        height: 100%;
+
+    }
     /* SOBRE */
     h1{
         display: none;
